@@ -1,12 +1,11 @@
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
 
-import Titulo from './src/components/Titulo'
+import Botao from './src/components/Botao'
 
 export default () => (
     <View style={style.App}>
-      <Titulo principal = "Cadastro Produto"
-      secundario="Tela de Cadastro"/>
+     <Botao/>
        
     </View>
 )
